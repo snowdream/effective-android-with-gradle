@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+echo -e "\n build book"
+gitbook pdf ./ ./books/effective-android-with-gradle.pdf
+gitbook epub ./ ./books/effective-android-with-gradle.epub
+gitbook mobi ./ ./books/effective-android-with-gradle.mobi
